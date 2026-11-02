@@ -1,0 +1,42 @@
+{
+  "depression": {
+    "color": "depression.webp",
+    "depth": "depression-depth.png"
+  },
+  "bipolar": {
+    "color": "bipolar.webp",
+    "depth": "bipolar-depth.png"
+  },
+  "generalized-anxiety": {
+    "color": "generalized-anxiety.webp",
+    "depth": "generalized-anxiety-depth.png"
+  },
+  "panic": {
+    "color": "panic.webp",
+    "depth": "panic-depth.png"
+  },
+  "social-anxiety": {
+    "color": "social-anxiety.webp",
+    "depth": "social-anxiety-depth.png"
+  },
+  "ocd": {
+    "color": "ocd.webp",
+    "depth": "ocd-depth.png"
+  },
+  "ptsd": {
+    "color": "ptsd.webp",
+    "depth": "ptsd-depth.png"
+  },
+  "depersonalization": {
+    "color": "depersonalization.webp",
+    "depth": "depersonalization-depth.png"
+  },
+  "adhd": {
+    "color": "adhd.webp",
+    "depth": "adhd-depth.png"
+  },
+  "insomnia": {
+    "color": "insomnia.webp",
+    "depth": "insomnia-depth.png"
+  }
+}

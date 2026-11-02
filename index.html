@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A calm, plain-language guide to mental health conditions, with 3D views of how they can feel.">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101317" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Mind Atlas">
+  <title>Mind Atlas</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three/build/three.module.js",
+        "three/addons/": "./vendor/three/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap top">
+    <a class="brand" href="#/">Mind Atlas</a>
+    <nav aria-label="Site"><a href="#/about">About</a></nav>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"></main>
+  <footer class="wrap safety">
+    <p>In the US, call or text <strong>988</strong> for the Suicide and Crisis Lifeline, any time. If you are in danger right now, call <strong>911</strong>.</p>
+    <p class="fineprint">General information, not a diagnosis or treatment advice.</p>
+  </footer>
+  <noscript><p class="wrap">Mind Atlas needs JavaScript turned on.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Mind Atlas",
+  "short_name": "Mind Atlas",
+  "description": "A calm, plain-language guide to mental health conditions, with 3D views of how they can feel.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#f6f4ef"
+}

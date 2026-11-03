@@ -60,6 +60,24 @@ Controls on each page:
 - **Calm mode** slows the motion, stops the camera from turning by itself, and is remembered on the device. If the phone asks for reduced motion, calm mode starts on.
 - **Reset view** returns the camera to its starting position.
 
+## Android app and web version
+
+The app can be wrapped as an Android app with Capacitor, and published as a website with GitHub Pages. Both use the same files, copied into `www/` by:
+
+```bash
+npm run www
+```
+
+**Android (APK).** Needs Java 17 or newer and the Android SDK (set `ANDROID_HOME`, or write `sdk.dir=...` in `android/local.properties`). Then:
+
+```bash
+npm run android:apk
+```
+
+The APK is written to `android/app/build/outputs/apk/debug/app-debug.apk`. It is signed with the debug key, which is fine for installing on your own phone (allow "install from unknown sources" when asked). It is about 380 MB because it carries every card picture and depth map, so the app works fully offline. The depth model in `models/` is not included; it is only used when preparing the cards.
+
+**Website.** `.github/workflows/pages.yml` publishes `www/` to GitHub Pages on every push to `main`. To turn it on: GitHub repository Settings, then Pages, then set Source to "GitHub Actions". The site appears at `https://<user>.github.io/mind-atlas/`. GitHub Pages on a private repository needs a paid GitHub plan; making the repository public is the free route.
+
 ## Content rules
 
 - **The text is original.** It is written in plain language. Do not paste text from the DSM or any other manual or website. Names are used as names only.
